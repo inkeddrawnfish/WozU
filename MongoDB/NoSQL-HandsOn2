@@ -1,0 +1,134 @@
+mongo "mongodb+srv://clusterajg-awpjf.mongodb.net/test" --username jade_yana
+
+db.createCollection("songs")
+db.songs.insertMany([
+db.employees.deleteMany({})
+
+db.employees.updateMany({}, {$set: {"position.remote": false}})
+db.employees.updateMany({}, {$unset: {"address.state": "Arizona"}})
+
+db.employees.updateOne({"_id": 6}, {$set: {"address.city": "ScottsDale"}})
+
+db.employees.insertMany([
+...   {
+        "_id": 1,
+...     "name": {"first": "Alison", "last": "Davidson"},
+...     "birthday": new Date('Apr 5, 1975'),
+...     "address": {"street": "874 West Oak Place",
+...         "city": "Gary",
+...         "state": "Indiana"},
+...     "position": {
+...        "position name": "Customer Support",
+...         "remote": true,
+...         "full time": true}
+...     },
+...     {
+        "_id": 2,
+...     "name": {"first": "Henry", "last": "Chapelton"},
+...     "birthday": new Date('Sep 29, 1980'),
+...     "address": {"street": "9324 East Vista Way",
+...         "city": "Tempe",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "Customer Support",
+...         "remote": false,
+...         "full time": true}
+...     },
+...     {
+        "_id": 3,
+...     "name": {"first": "Alex", "last": "Miller"},
+...     "birthday": new Date('Nov 22, 1983'),
+...     "address": {"street": "244 Price Road",
+...         "city": "Mesa",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "Customer Support",
+...         "remote": false,
+...         "full time": false}
+...     },
+...     {
+        "_id": 4,
+...     "name": {"first": "Carly", "last": "Nielson"},
+...     "birthday": new Date('Aug 7, 1987'),
+...     "address": {"street": "678 West Westward Road",
+...         "city": "Phoenix",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "Office Manager",
+...         "remote": false,
+...         "full time": true}
+...     },
+...     {
+        "_id": 5,
+...     "name": {"first": "Tom", "last": "Talbot"},
+...     "birthday": new Date('Dec 30, 1989'),
+...     "address": {"street": "12 Oakland Way",
+...         "city": "Chandler",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "Inventory Manager",
+...         "remote": false,
+...         "full time": true}
+...     },
+...     {
+        "_id": 6,
+...     "name": {"first": "Mary", "last": "Crawley"},
+...     "birthday": new Date('Jul 6, 1980'),
+...     "address": {"street": "1010 Granite Way",
+...         "city": "Charlotte",
+...         "state": "North Carolina"},
+...     "position": {
+...         "position name": "Human Resources",
+...         "remote": true,
+...         "full time": true}
+...     },
+...     {
+        "_id": 7,
+...     "name": {"first": "Daisy", "last": "Baxter"},
+...     "birthday": new Date('Sep 9, 1987'),
+...     "address": {"street": "990 East 84th Street",
+...         "city": "Tempe",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "CEO",
+...         "remote": false,
+...         "full time": true}
+...     },
+...     {
+        "_id": 8,
+...     "name": {"first": "William", "last": "Coyle"},
+...     "birthday": 10/11/91,
+...     "birthday": new Date('Oct 11, 1991'),
+...     "address": {"street": "944 West 16th Street",
+...         "city": "Phoenix",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "Intern",
+...         "remote": false,
+...         "full time": false}
+...     },
+...     {
+        "_id": 9,
+...     "name": {"first": "Edith", "last": "Bates"},
+...     "birthday": new Date('Jul 28, 1990'),
+...     "address": {"street": "7 East 20th Place",
+...         "city": "Chandler",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "Customer Support",
+...         "remote": false,
+...          "full time": true}
+...     },
+...     {
+        "_id": 10,
+...     "name": {"first": "Gwen", "last": "Harding"},
+...     "birthday": new Date('Oct 11, 1986'),
+...     "address": {"street": "234 West 48th Street",
+...         "city": "Phoenix",
+...         "state": "Arizona"},
+...     "position": {
+...         "position name": "Office Assistant",
+...         "remote": false,
+...         "full time": true}
+...     }
+... ])
